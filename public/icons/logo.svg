@@ -1,0 +1,24 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_16">
+   <g stroke="null" id="svg_6">
+    <title stroke="null" transform="translate(13,12) scale(1,0.9731543660163879) translate(-13,-12) translate(13,12.331034660339355) scale(1,0.9816091656684875) translate(-13,-12.331034660339355) ">sup</title>
+    <rect stroke="#000000" id="svg_1" height="205.38031" width="615" y="12" x="13" stroke-width="5" fill="#000000"/>
+    <rect stroke="#ffffff" id="svg_3" height="120.36241" width="394.00001" y="105.13758" x="122.99999" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffffff"/>
+   </g>
+   <g stroke="null" transform="rotate(180 319.5,361.75) " id="svg_7">
+    <title stroke="null" transform="translate(0,12) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(0,1) translate(-1,0) translate(-1,0) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(0,-1) translate(-19,205) translate(20,20) translate(12,244) scale(1,0.9463087320327759) translate(-12,-244) " id="svg_8">sup</title>
+    <rect stroke="#000000" id="svg_9" height="203.45638" width="615" y="256" x="12" stroke-width="5" fill="#000000"/>
+    <rect stroke="#ffffff" id="svg_10" height="119.2349" width="394.00001" y="348.2651" x="121.99999" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffffff"/>
+   </g>
+   <g id="svg_15">
+    <rect stroke="#0000bf" id="svg_11" height="95" width="276.99999" y="192.5" x="192.00001" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#0000bf"/>
+    <rect stroke="#0000bf" transform="rotate(90 464.50000000000006,240.00000000000003) " id="svg_12" height="76.00001" width="240" y="202" x="344.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#0000bf"/>
+    <rect id="svg_13" stroke="#0000bf" transform="rotate(90 174.00000000000003,240) " height="73" width="240" y="203.5" x="54" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#0000bf"/>
+   </g>
+  </g>
+ </g>
+</svg>

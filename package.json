@@ -1,0 +1,30 @@
+{
+  "name": "xitek",
+  "version": "1.0.0",
+  "description": "XiTek, TDF, SL Site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbermudez/xitek.git"
+  },
+  "keywords": [
+    "XiTek",
+    "TDF",
+    "SL",
+    "Site"
+  ],
+  "author": "vbermudez@xi-tek.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbermudez/xitek/issues"
+  },
+  "homepage": "https://github.com/vbermudez/xitek#readme",
+  "dependencies": {
+    "compression": "^1.7.2",
+    "express": "^4.16.3"
+  }
+}
