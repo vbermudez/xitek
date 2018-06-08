@@ -3,36 +3,71 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="black"/>
+
+    <link rel="manifest" href="/manifest.json">
+
+    <link rel="icon" href="icons/logo.svg">
 
     <link rel="stylesheet" href="https://normalize-css.googlecode.com/svn/trunk/normalize.css" />
     <link rel="stylesheet" href="css/estilos.css" />
     
-    <link rel="manifest" href="/manifest.json">
+    <!-- Preloading modules -->
+    <link rel="preload" href="js/app/xitek.js" as="script">
+    <link rel="preload" href="js/elements/header.js" as="script">
+    <link rel="preload" href="js/elements/footer.js" as="script">
 
     <title>Xi Ξ Tek</title>
   </head>
 
   <body>
-    <header>
-      <h1>Xi Ξ Tek</h1>
-      <div class="logo">
-              <img src="icons/logo.svg" alt="Logotipo XiTek, TDF, SL">
-      </div>
-      <h4>Tecnología, Diseño y Formación</h4>
-    </header>
+    <xt-header></xt-header>
       
     <main>
       <section class="aviso-legal">
         <div class="titulo">Aviso legal</div>
         <div class="contenido">
-          Texto de aviso legal
+          <ul>
+            <li><b>Generalidades</b>
+              <ul class="circle-list">
+                  <li>Todos los precios que se señalen en este mail están sujetos a variación hasta factura.</li>
+                  <li>Todos los plazos de entrega son siempre estimados, nunca vinculantes.</li>
+                  <li><a href="/">XiTek, TDF, SL</a> se reserva <b>SIEMPRE</b> el derecho de atender, o no, cualquier servicio solicitado.</li>
+              </ul>  
+            </li>
+            <li><b>Destinatari@ / Addressee</b>
+              <ul class="no-list">
+                <li><b><i>Castellano</i></b>
+                  <ul class="circle-list parent-level-list">
+                      <li>Este mensaje se dirige exclusivamente a su <i>destinatari@</i> y puede contener información privilegiada y/o confidencial.</li>
+                      <li>Si no es Usted el/la destinatari@ indicad@, queda notificad@ de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente.</li>
+                      <li>Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.</li>
+                  </ul>
+                </li>
+                <li><b><i></i>English</i></b>
+                  <ul class="circle-list parent-level-list">
+                    <li>This message is intended exclusively for its addressee and may contain information that is <b>CONFIDENTIAL</b> and protected by professional privilege.</li>
+                    <li>If you are not the intended recipient you are hereby notified that any dissemination, copy or disclosure of this communication is strictly prohibited by law.</li>
+                    <li>If this message has been received in error, please immediately notify us via e-mail and delete it.</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><b>Protección de Datos Personales</b>
+              <ul class="circle-list">
+                <li>Los datos personales que Ud. facilite en este e-mail serán objeto de tratamiento (y eventualmente incorporados en un fichero) bajo la responsabilidad de <a href="/">XiTek, TDF, SL</a> para tramitar y dar respuesta al objeto de su mensaje.</li>
+                <li>El/La titular de los datos personales deberá dirigirse por escrito al domicilio social de <a href="/">XiTek, TDF, SL</a> en <i>Calle Castilla 10, 1º izqda., 39002 Santander (Cantabria)</i>  para el ejercicio de los derechos de acceso, rectificación, cancelación y oposición, indicando en el asunto "<b>Protección de Datos Personales ante <a href="/">XiTek, TDF, SL</a></b>" y acreditando su identidad.</li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
 
-    <footer>
-      Copyright &copy; 2018 <a href="/"><strong>XiTek, TDF, SL</strong></a>.
-    </footer>
+    <xt-footer></xt-footer>
+
+    <!-- Loading main script -->
+    <script src="js/index.js" type="module"></script>
   </body>
 </html>

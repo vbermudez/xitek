@@ -4,31 +4,35 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="theme-color" content="black"/>
+
+        <link rel="manifest" href="/manifest.json">
+
+        <link rel="icon" href="icons/logo.svg">
 
         <link rel="stylesheet" href="https://normalize-css.googlecode.com/svn/trunk/normalize.css" />
         <link rel="stylesheet" href="css/estilos.css" />
         
-        <link rel="manifest" href="/manifest.json">
+        <!-- Preloading modules -->
+        <link rel="preload" href="js/app/xitek.js" as="script">
+        <link rel="preload" href="js/elements/header.js" as="script">
+        <link rel="preload" href="js/elements/footer.js" as="script">
 
         <title>Xi Ξ Tek</title>
+
     </head>
 
     <body>
-        <header>
-            <h1>Xi Ξ Tek</h1>
-            <div class="logo">
-                    <img src="icons/logo.svg" alt="Logotipo XiTek, TDF, SL">
-            </div>
-            <h4>Tecnología, Diseño y Formación</h4>
-        </header>
-        
+        <xt-header></xt-header>
+
         <main>
             Contenido
         </main>
 
-        <footer>
-            Copyright &copy; 2018 <a href="/"><strong>XiTek, TDF, SL</strong></a>.
-        </footer>
+        <xt-footer></xt-footer>
+
+        <!-- Loading main script -->
+        <script src="js/index.js" type="module"></script>
     </body>
 </html>
